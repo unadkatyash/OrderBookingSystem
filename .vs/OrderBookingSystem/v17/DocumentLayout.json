@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|d:\\projects\\new project\\rv\\orderbookingsystem\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|d:\\projects\\new project\\rv\\orderbookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|d:\\projects\\new project\\rv\\orderbookingsystem\\helperclasses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|solutionrelative:helperclasses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|d:\\projects\\new project\\rv\\orderbookingsystem\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|d:\\projects\\new project\\rv\\orderbookingsystem\\helperclasses\\responsemessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|solutionrelative:helperclasses\\responsemessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|d:\\projects\\new project\\rv\\orderbookingsystem\\iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C47139-C839-456C-A7B5-74AC5693C410}|OrderBookingSystem.csproj|solutionrelative:iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -107,84 +82,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T07:04:28.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\HelperClasses\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "HelperClasses\\ApiResponse.cs",
-              "ToolTip": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\HelperClasses\\ApiResponse.cs",
-              "RelativeToolTip": "HelperClasses\\ApiResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:09:42.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResponseMessages.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\HelperClasses\\ResponseMessages.cs",
-              "RelativeDocumentMoniker": "HelperClasses\\ResponseMessages.cs",
-              "ToolTip": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\HelperClasses\\ResponseMessages.cs",
-              "RelativeToolTip": "HelperClasses\\ResponseMessages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:09:39.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderService.cs",
-              "ToolTip": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\Services\\OrderService.cs",
-              "RelativeToolTip": "Services\\OrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:00:59.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\IServices\\IOrderService.cs",
-              "RelativeDocumentMoniker": "IServices\\IOrderService.cs",
-              "ToolTip": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\IServices\\IOrderService.cs",
-              "RelativeToolTip": "IServices\\IOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:00:19.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Projects\\New Project\\RV\\OrderBookingSystem\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:32:34.82Z",
-              "EditorCaption": ""
             }
           ]
         }
