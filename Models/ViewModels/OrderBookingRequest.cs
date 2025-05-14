@@ -11,6 +11,7 @@
         public int CustomerID { get; set; }
         public List<OrderItemDto> Items { get; set; } = new();
         public string PaymentMethod { get; set; } = "CreditCard";
+        public bool AllowBooking { get; set; } = false;
     }
 
 }

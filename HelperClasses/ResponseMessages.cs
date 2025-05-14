@@ -8,5 +8,7 @@
         public const string ProductNotFound = "Product with ID '{0}' not found.";
         public const string EmptyProductList = "Please add some products in the list.";
         public const string InvalidCustomer = "Invalid customer. Please check the customer information.";
+        public const string InvalidQuantity = "Invalid quantity for product '{0}'. Quantity must be greater than 0.";
+        public const string AllowBooking = "Order booking is currently not allowed.";
     }
 }

@@ -66,6 +66,13 @@ namespace OrderBookingSystem.Services
                         return response;
                     }
 
+                    if (item.Quantity <= 0)
+                    {
+                        response.Code = StatusCodes.Status400BadRequest;
+                        response.Messages.Add(string.Format(ResponseMessages.InvalidQuantity, product.ProductName));
+                        return response;
+                    }
+
                     if (product.Stock < item.Quantity)
                     {
                         response.Code = StatusCodes.Status400BadRequest;
@@ -109,6 +116,10 @@ namespace OrderBookingSystem.Services
                 });
 
                 await _context.SaveChangesAsync();
+                if (!request.AllowBooking)
+                {
+                    throw new InvalidOperationException(string.Format(ResponseMessages.AllowBooking));
+                }
                 await transaction.CommitAsync();
 
                 response.Code = StatusCodes.Status200OK;
@@ -124,7 +135,5 @@ namespace OrderBookingSystem.Services
                 return response;
             }
         }
-
-
     }
 }
