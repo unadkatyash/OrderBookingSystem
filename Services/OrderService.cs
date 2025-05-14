@@ -108,12 +108,22 @@ namespace OrderBookingSystem.Services
                     _context.Products.Update(product);
                 }
 
+                var paymentMethodExists = await _context.PaymentMethods.AnyAsync(pm => pm.PaymentMethodID == request.PaymentMethodID);
+
+                if (!paymentMethodExists)
+                {
+                    response.Code = StatusCodes.Status400BadRequest;
+                    response.Messages.Add(string.Format(ResponseMessages.InvalidPaymentMethod, request.PaymentMethodID));
+                    return response;
+                }
+
                 _context.Payments.Add(new Payment
                 {
                     OrderID = order.OrderID,
                     Amount = totalAmount,
-                    PaymentMethod = request.PaymentMethod
+                    PaymentMethodID = request.PaymentMethodID
                 });
+
 
                 await _context.SaveChangesAsync();
                 if (!request.AllowBooking)
